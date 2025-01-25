@@ -13,12 +13,6 @@
   margin-top: 10px;
 }
 
-.brands{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.image{
- height: auto; 
- width: 60%;
+#lsf{
+  width: 400px;
 }

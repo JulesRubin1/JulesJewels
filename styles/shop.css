@@ -63,7 +63,8 @@
 }
 
 #sephora-image {
-  width: 100px;
+  width: 260px;
+  object-fit: contain;
 }
 
 #lulu-image {
