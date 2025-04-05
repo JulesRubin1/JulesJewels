@@ -16,3 +16,18 @@
 #lsf{
   width: 400px;
 }
+
+.gift{
+  display:flex ;
+}
+
+.left-section > img{
+  height: 350px;
+  background-color: lightcyan;
+}
+
+.right-section{
+  background-color: rgb(252, 231, 241);
+  width: 350px;
+  padding: 20px;
+}
