@@ -98,6 +98,12 @@
 @media only screen and (max-width:701px) {
   .gift{
     flex-direction: column;
-    width: 100%;
+    width: 350px;
   }
 } 
+
+.gift-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}

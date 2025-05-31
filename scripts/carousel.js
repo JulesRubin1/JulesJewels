@@ -23,3 +23,16 @@ document.addEventListener( 'DOMContentLoaded', function () {
     }).mount();
   });
   
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide('#gift-carousel', {
+      type: 'slide',
+      perPage: 2,
+      arrows: false,
+      breakpoints: {
+        768: {
+          perPage: 1,
+          padding: '10%'
+        }
+      }
+    }).mount();
+  });
